@@ -1,0 +1,45 @@
+/* Estilo para la tabla */
+table {
+    //width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas */
+td {
+    width: 50px;
+    height: 50px;
+   // bottom: 5%; /* Asegura que sea cuadrada */
+    border: 1px solid #000;
+    text-align: center; /* Centra horizontalmente */
+    vertical-align: middle; /* Centra verticalmente */
+}
+
+/* Estilo personalizado para las celdas de la izquierda */
+.highlight-left {
+    border-left: 12px solid red;
+}
+
+/* Estilo personalizado para las celdas de la derecha */
+.highlight-right {
+    border-right: 12px solid red;
+}
+
+/* Cambia el tamaño del icono */
+td i {
+    font-size: 36px; /* Ajusta este valor al tamaño deseado */
+}
+
+/* Cambia el color del icono */
+.local {
+    color: red; /* Ajusta este valor al color deseado */
+}
+
+/* Cambia el color del icono */
+.visitante {
+    color: blue; /* Ajusta este valor al color deseado */
+}
+
+/* Cambiar el color del fondo */
+td.centro {
+    background-color: rgb(193, 195, 190); /* Ajusta este valor al color deseado */
+}
