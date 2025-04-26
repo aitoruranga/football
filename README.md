@@ -1,5 +1,5 @@
 # football
 
-A football game. Actually in alpha version.
+A football game. Actually in beta version.
 
 View online: https://football.uranga.eus
